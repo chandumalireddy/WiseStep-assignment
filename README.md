@@ -6,8 +6,8 @@ Steps to run the application in local.
   i)Build the application using Maven. (Maven clean and Maven install)
   ii)Run the application (default port is : localhost:8080)
  
-2) Clne the frontEndCode folder to VSCODE.
-  i) npm install
+2) Clone the frontEndCode folder to VSCODE.
+  i) npm install (it will create node_modules folder)
   ii)ng serve
 
 3) when both the applications are started : 
