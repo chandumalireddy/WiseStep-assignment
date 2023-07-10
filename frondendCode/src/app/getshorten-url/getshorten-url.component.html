@@ -1,0 +1,21 @@
+
+<div *ngIf="!isErrorMessageTrue && !isUnknownUrl">
+<h4>Generated Shorten Url, Please click below link</h4>
+<div class="container-fluid">
+     <div class="alert alert-success">
+
+ 
+          <a href = "{{originalUrl}}"  target="_blank">CLick here please</a>
+
+     </div>
+</div>
+</div>
+<div *ngIf="isErrorMessageTrue && !isUnknownUrl">
+     <div class="alert alert-danger">
+          <strong>Error:</strong>{{errorMessage}}
+        </div>
+</div>
+
+<div *ngIf="isUnknownUrl">
+     <app-shorten-url [errorMessage]="'Entered URL does not exist , please create a new one'" [isUnknownUrl]="true"></app-shorten-url>
+</div>
