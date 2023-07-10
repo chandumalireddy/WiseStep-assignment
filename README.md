@@ -15,5 +15,7 @@ Steps to run the application in local.
       ii) It will generate the shorten URL
       iii) Click on the shorten URL it will re-direct to actuall URL and try to change the shorten url and enter it will show invalid URL message
 
-Handled possible error suitation like Duplicate URL, Invalid URL, expired URL, etc.,
+4) Run Mongo DB locally either using Mongo Compass or Mongo Shell
+
+Recorded a small video to demostrate the application please find the drive Link for recorded Video: https://drive.google.com/file/d/1vQocJK3ImyS5VjB9GnlqqOTR-1K86Ms5/view?usp=drive_link
 
